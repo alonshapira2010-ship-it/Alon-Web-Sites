@@ -9,11 +9,13 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <!--https://www.w3schools.com/html/html_tables.asp-->
     <h1>Master start</h1>
     <table border="1" width="90%" height="500px">
         <tr height="100px">
             <td>
-                dfsdfsf
+                <a href="About.aspx">About.aspx</a>
+                <a href="Home.aspx">Home.aspx</a>
             </td>
         </tr>
         <tr>
