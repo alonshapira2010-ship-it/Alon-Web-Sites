@@ -4,24 +4,76 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>NBA</title>
+   
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+
+        img gallery {
+            width: 50px;
+            height: 45px;
+        }
+      .myTable {
+                  border: 3px solid black;
+                  border-collapse: collapse;
+                  background-color: beige;
+                  
+
+              }
+     
+  }
+</style>
 </head>
-<body>
+<body dir="rtl" style="background-color:dimgray">
     <!--https://www.w3schools.com/html/html_tables.asp-->
+    <center>
     <h1>Master start</h1>
-    <table border="1" width="90%" height="500px">
+    <table class="myTable" border="1" width="90%" height="500px">
         <tr height="100px">
-            <td>
-                <a href="About.aspx">About.aspx</a>
-                <a href="Home.aspx">Home.aspx</a>
+            
+            <td> 
+                <center>
+                    <a href="Enter.aspx">
+                     <img src="Images/כניסה.png" width="130" height="100"  />
+                    </a>
+                    <a href="Home.aspx">
+                    <img src="Images/דף הבית.png" width="130" height="100"  />
+                   </a>
+                   <a href="About.aspx">
+                    <img src="Images/אודות.png" width="130" height="100"  />
+                    </a>
+                    <a href="Gallery.aspx">
+                        <img src="Images/גלריה.png" width="130" height="100"  />
+                    </a>
+                    <a href="Sign Up.aspx">
+                        <img src="Images/הרשמה.png" width="130" height="100"  />
+                    </a>
+                    <a href="Manager.aspx">
+                        <img src="Images/מנהל.png" width="130" height="100"  />
+                    </a>
+                    <a href="Simple Search.aspx">
+                        <img src="Images/חיפוש פשוט.png" width="130" height="100"  />
+                    </a>
+                    <a href="Complex Search.aspx">
+                        <img src="Images/חיפוש מורכב.png" width="130" height="100"  />
+                    </a>
+                    <a href="Update details.aspx">
+                        <img src="Images/עדכון פרטים.png" width="130" height="100"  />
+                    </a>
+                    <a href="Exit.aspx">
+                        <img src="Images/יציאה.png" width="130" height="100"  />
+                    </a>
+                    
+                    
+                    </center>
             </td>
         </tr>
+        
         <tr>
-            <td>
+            <td> 
                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
+ </asp:ContentPlaceHolder>
             </td>
         </tr>
     </table>
@@ -29,5 +81,6 @@
 
     
     <h1>Master End</h1>
+        </center>
 </body>
 </html>
