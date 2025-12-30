@@ -25,17 +25,21 @@
   }
 </style>
 </head>
-<body dir="rtl" style="background-color:dimgray">
+<body dir="rtl" style="background-color:#C8102E">
     <!--https://www.w3schools.com/html/html_tables.asp-->
     <center>
-    <h1>Master start</h1>
-    <table class="myTable" border="1" width="90%" height="500px">
+    <h1>NBA PLAYERS</h1>
+    <table class="myTable" border="1" width="90%" height="500px" >
         <tr height="100px">
             
             <td> 
                 <center>
+                    <a href="Sign Up.aspx">
+    <img src="Images/הרשמה.png" width="130" height="100"  />
+</a>
                     <a href="Enter.aspx">
                      <img src="Images/כניסה.png" width="130" height="100"  />
+
                     </a>
                     <a href="Home.aspx">
                     <img src="Images/דף הבית.png" width="130" height="100"  />
@@ -45,9 +49,6 @@
                     </a>
                     <a href="Gallery.aspx">
                         <img src="Images/גלריה.png" width="130" height="100"  />
-                    </a>
-                    <a href="Sign Up.aspx">
-                        <img src="Images/הרשמה.png" width="130" height="100"  />
                     </a>
                     <a href="Manager.aspx">
                         <img src="Images/מנהל.png" width="130" height="100"  />
@@ -71,7 +72,7 @@
         </tr>
         
         <tr>
-            <td> 
+            <td style="vertical-align:top"> 
                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
  </asp:ContentPlaceHolder>
             </td>
