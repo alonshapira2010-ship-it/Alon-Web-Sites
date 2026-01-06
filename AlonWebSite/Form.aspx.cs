@@ -14,6 +14,7 @@ public partial class Form : System.Web.UI.Page
     public string TextAreaStr;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (IsPostBack)
         {
             name = "name:" + Request.Form["firstname"]; 
             FavoriteSubject = "FavoriteSubjects:" + Request.Form["check2"];

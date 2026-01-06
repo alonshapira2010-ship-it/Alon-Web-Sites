@@ -14,15 +14,15 @@
         <h2>  אמייל: <input type="text" name="Gmail" id="Gmail" placeholder="אמייל"> </h2>
         <hr />
 
-                <h2>  סיסמה לאמייל: <input type="text" name="Password" id="Password" placeholder="סיסמה לאמייל"> </h2>
+                <h2>  סיסמה לאמייל: <input type="password" name="Password" id="Password" placeholder="סיסמה לאמייל"> </h2>
         <hr />
 
         <h2> שחקנים אהובים בקבוצה:</h2>
-       דני אבדיה <input type="checkbox" name="Password" id="Password" placeholder=""> <br />
-       ג'רו הולידיי <input type="checkbox" name="Password" id="Password" placeholder=""><br />
-       שיידון שארפ <input type="checkbox" name="Password" id="Password" placeholder=""><br />
-       טומאני קאמארה <input type="checkbox" name="Password" id="Password" placeholder=""><br />
-        אחר <input type="checkbox" name="Password" id="Password" placeholder=""><br />
+       דני אבדיה <input type="checkbox" value="1" name="FavoritePlayer" id="FavoritePlayer1" placeholder=""> <br />
+       ג'רו הולידיי <input type="checkbox" value="2" name="FavoritePlayer" id="FavoritePlayer2" placeholder=""><br />
+       שיידון שארפ <input type="checkbox" value="3"  name="FavoritePlayer" id="FavoritePlayer3" placeholder=""><br />
+       טומאני קאמארה <input type="checkbox" name="FavoritePlayer" id="FavoritePlayer4" placeholder=""><br />
+        אחר <input type="checkbox" name="FavoritePlayer" id="FavoritePlayer5" placeholder=""><br />
         <hr />
      <select name="AgeWeb" id="AgeWeb">
     <option value="0">בחר גיל</option>
@@ -32,14 +32,23 @@
            </select>
            <hr />
         <h2> האם תרצה לקבל התראות לאמייל שלך על האתר?</h2>
-                כן <input type="radio" name="Yes/No" id="Yes/No" placeholder=""><br />
-                לא <input type="radio" name="Yes/No" id="Yes/No" placeholder=""><br />
+                כן <input type="radio" value="1" name="Yes/No" id="Yes/No1" placeholder=""><br />
+                לא <input type="radio" value="2" name="Yes/No" id="Yes/No2" placeholder=""><br />
         <hr />
 
 
 
-        
+        <input id="Submit1" type="submit" value="שלח" />
     </form>
+    <div>
+<%= name %> <br />
+<%= LastName %><br />
+<%= Gmail %><br />
+<%= Password %> <br />
+    <%= FavoritePlayer %> <br />
+<%= AgeWeb %> <br />
+    <%= yesOrNo %>
+    </div>
 
 </asp:Content>
 
