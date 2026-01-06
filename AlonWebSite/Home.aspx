@@ -3,12 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h1  style ="font-size:60px; color: black; text-align:center; margin:0  " > 
+    <h1  style =" font-weight: bold; font-size:55px; color: black; text-align:center; margin:0  " > 
         Portland-Trail Blazers</h1>
     </br>
-    This is a home page
+ <font style="font-size:35px" >!Welcome to portland blazers</font>
     </br>
-    put this in Master Page
+    <font style="font-size:35px">"Rip City"</font>
     </br>
     <center>
     <a href="https://www.nba.com/blazers/?srsltid=AfmBOooWWMjpUbFRCqeUCvo03yzGKVbnqQ8SujdxBZRX4OolXqlo8v-H" > 

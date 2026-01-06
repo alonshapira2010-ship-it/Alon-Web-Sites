@@ -19,8 +19,16 @@ public partial class Kefel : System.Web.UI.Page
             strKefel += "<tr>";
             for (int j = 1; j <= 10; j++)
             {
-                strKefel += "<td> ";
-                strKefel += i * j;
+                int num = i * j;
+
+                    strKefel += "<td style='";
+                if ( (i+j) % 2 == 0)
+                    strKefel += "background-color:lightblue";
+                else
+                    strKefel += "background-color:lightgreen";
+                strKefel += "'>";
+                    strKefel += i * j;
+
                 strKefel += "</td>";
             }
             strKefel += "</tr>";
