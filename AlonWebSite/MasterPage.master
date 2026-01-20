@@ -32,7 +32,7 @@
 
                 <td>
                     <center>
-                        <a href="Sign Up.aspx">
+                        <a href="Sign_Up.aspx">
                             <img src="Images/הרשמה.png" width="130" height="100" />
                         </a>
                         <a href="Enter.aspx">

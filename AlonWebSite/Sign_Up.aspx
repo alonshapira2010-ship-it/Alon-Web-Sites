@@ -48,6 +48,7 @@
     <%= FavoritePlayer %> <br />
 <%= AgeWeb %> <br />
     <%= yesOrNo %>
+          <%= S %>
     </div>
 
 </asp:Content>

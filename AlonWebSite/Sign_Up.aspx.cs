@@ -7,8 +7,8 @@ using System.Web.UI.WebControls;
 
 public partial class Sign_Up : System.Web.UI.Page
 {
-    
-        public string name;
+    public string S = "";
+    public string name;
     public string LastName;
     public string Gmail;
     public string Password;
@@ -20,16 +20,32 @@ public partial class Sign_Up : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+      
         if (IsPostBack)
         {
-            name = "name:" + Request.Form["firstname"];
-            LastName = "Last Name:" + Request.Form["LastName"];
-            Gmail = "אמייל:" + Request.Form["Gmail"];
-            Password = "סיסמה לאמייל:" + Request.Form["Password"];
-            FavoritePlayer = "שחקנים אהובים:" + Request.Form["FavoritePlayer"];
-            AgeWeb = "גיל:" + Request.Form["AgeWeb"];
-            yesOrNo = "קבלת התראות:" + Request.Form["Yes/No"];
-        
+            name = Request.Form["firstname"];
+            LastName = Request.Form["LastName"];
+            Gmail = Request.Form["Gmail"];
+            Password = Request.Form["Password"];
+            FavoritePlayer = Request.Form["FavoritePlayer"];
+            AgeWeb = Request.Form["AgeWeb"];
+            yesOrNo = Request.Form["Yes/No"];
+
+            string sqlInsert =
+                "INSERT INTO tUsers " +
+                "VALUES (" +
+                "N'" + name + "'," +
+                "N'" + LastName + "'," +
+                "'" + Gmail + "'," +
+                "N'" + Password + "'," +
+                "N'" + FavoritePlayer + "'," +
+                "'" + AgeWeb + "'," +
+                "N'" + yesOrNo + "'" +
+                ")";
+
+            MyAdoHelper.DoQuery("MyDB.mdf", sqlInsert);
+
+            S = "נרשמת בהצלחה!";
         }
 
     }
