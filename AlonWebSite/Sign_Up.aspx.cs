@@ -23,6 +23,7 @@ public partial class Sign_Up : System.Web.UI.Page
       
         if (IsPostBack)
         {
+
             name = Request.Form["firstname"];
             LastName = Request.Form["LastName"];
             Gmail = Request.Form["Gmail"];
@@ -31,7 +32,19 @@ public partial class Sign_Up : System.Web.UI.Page
             AgeWeb = Request.Form["AgeWeb"];
             yesOrNo = Request.Form["Yes/No"];
 
-            string sqlInsert =
+            string sqlSelect =
+            "SELECT * FROM tUsers WHERE Email = '" + Gmail + "'";
+
+            bool userExists = MyAdoHelper.IsExist(sqlSelect);
+
+            if (userExists)
+            {
+                S = "האימייל כבר רשום במערכת";
+            }
+            else
+            {
+
+                string sqlInsert =
                 "INSERT INTO tUsers " +
                 "VALUES (" +
                 "N'" + name + "'," +
@@ -44,9 +57,10 @@ public partial class Sign_Up : System.Web.UI.Page
                 ")";
 
             MyAdoHelper.DoQuery("MyDB.mdf", sqlInsert);
-
+            
             S = "נרשמת בהצלחה!";
         }
+             }
 
     }
 }
