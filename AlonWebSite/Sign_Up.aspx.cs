@@ -59,6 +59,7 @@ public partial class Sign_Up : System.Web.UI.Page
             MyAdoHelper.DoQuery("MyDB.mdf", sqlInsert);
             
             S = "נרשמת בהצלחה!";
+                Response.Redirect("Home.aspx");
         }
              }
 

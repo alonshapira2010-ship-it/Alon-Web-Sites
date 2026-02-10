@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Activities.Expressions;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,17 +16,27 @@ public partial class Enter : System.Web.UI.Page
             string email = Request.Form["Gmail"];
             string password = Request.Form["Password"];
 
-            string sqlSelect =
-                "SELECT * FROM tUsers " +
-            "WHERE Email = '" + email + "' " +
-            "AND Password = N'" + password + "'";
-
-            bool userExists = MyAdoHelper.IsExist(sqlSelect);
-
-            if (!userExists)
-               stResult = "אמייל או סיסמה שגויים";
+            if (email == "Manager@gmail.com" && password == "PTB2026")
+            {
+                Response.Redirect("Manager.aspx");
+            }
             else
-                stResult = "משתמש רשום";
+            {
+                string sqlSelect =
+                    "SELECT * FROM tUsers " +
+                "WHERE Email = '" + email + "' " +
+                "AND Password = N'" + password + "'";
+
+                bool userExists = MyAdoHelper.IsExist(sqlSelect);
+
+                if (!userExists)
+                    stResult = "אמייל או סיסמה שגויים";
+                else
+                {
+                    stResult = "משתמש רשום";
+                    Response.Redirect("Home.aspx");
+                }
+            }
         }
     }
 }
