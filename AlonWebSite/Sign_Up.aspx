@@ -18,11 +18,11 @@
         <hr />
 
         <h2> שחקנים אהובים בקבוצה:</h2>
-       דני אבדיה <input type="checkbox" value="1" name="FavoritePlayer" id="FavoritePlayer1" placeholder=""> <br />
-       ג'רו הולידיי <input type="checkbox" value="2" name="FavoritePlayer" id="FavoritePlayer2" placeholder=""><br />
-       שיידון שארפ <input type="checkbox" value="3"  name="FavoritePlayer" id="FavoritePlayer3" placeholder=""><br />
-       טומאני קאמארה <input type="checkbox" name="FavoritePlayer" id="FavoritePlayer4" placeholder=""><br />
-        אחר <input type="checkbox" name="FavoritePlayer" id="FavoritePlayer5" placeholder=""><br />
+       דני אבדיה <input type="checkbox" value="דני אבדיה" name="FavoritePlayer" id="FavoritePlayer1" placeholder=""> <br />
+       ג'רו הולידיי <input type="checkbox" value="ג'רו הולידיי" name="FavoritePlayer" id="FavoritePlayer2" placeholder=""><br />
+       שיידון שארפ <input type="checkbox" value="שיידון שארפ"  name="FavoritePlayer" id="FavoritePlayer3" placeholder=""><br />
+       טומאני קאמארה <input type="checkbox" value="טומאני קאמארה" name="FavoritePlayer" id="FavoritePlayer4" placeholder=""><br />
+        אחר <input type="checkbox"  value="אחר" name="FavoritePlayer" id="FavoritePlayer5" placeholder=""><br />
         <hr />
      <select name="AgeWeb" id="AgeWeb">
     <option value="0">בחר גיל</option>
@@ -32,8 +32,8 @@
            </select>
            <hr />
         <h2> האם תרצה לקבל התראות לאמייל שלך על האתר?</h2>
-                כן <input type="radio" value="1" name="Yes/No" id="Yes/No1" placeholder=""><br />
-                לא <input type="radio" value="2" name="Yes/No" id="Yes/No2" placeholder=""><br />
+                כן <input type="radio" value="כן" name="Yes/No" id="Yes/No1" placeholder=""><br />
+                לא <input type="radio" value="לא" name="Yes/No" id="Yes/No2" placeholder=""><br />
         <hr />
 
 
