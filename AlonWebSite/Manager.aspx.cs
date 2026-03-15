@@ -10,16 +10,17 @@ public partial class manager : System.Web.UI.Page
 {
     public string st = "";
     protected void Page_Load(object sender, EventArgs e)
-    { 
-        if (Page.IsPostBack)
     {
+        if (Page.IsPostBack)
+
+        {
             string FirstName = Request.Form["FirstName"];
             string LastName = Request.Form["LastName"];
 
 
             string sql = "SELECT * from tUsers WHERE" +
-                " [First Name] = N'" + FirstName + "'AND " +
-                " LastName = N'" + LastName + "'";
+                " [First Name] Like N'%" + FirstName + "%'AND " +
+                " LastName Like N'%" + LastName + "%'";
             
             
 

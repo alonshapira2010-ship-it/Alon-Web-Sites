@@ -9,7 +9,7 @@
     <h2>  שם פרטי: <input type="text" name="FirstName" id="FirstName" placeholder="שם פרטי"> </h2>
 <hr />
 
-        <h2>  שם משפחה: <input type="password" name="LastName" id="LastName" placeholder="שם משפחה"> </h2>
+        <h2>  שם משפחה: <input type="text" name="LastName" id="LastName" placeholder="שם משפחה"> </h2>
 <hr />
 
            <input id="Submit1" type="submit" value="שלח" />
