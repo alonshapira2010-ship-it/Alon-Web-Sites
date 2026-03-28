@@ -23,7 +23,7 @@
         }
     </style>
 </head>
-<body dir="rtl" style="background-color: #C8102E">
+<body dir="ltr" style="background-color: #C8102E">
     <!--https://www.w3schools.com/html/html_tables.asp-->
     <center>
         <h1 style="color: white; font-size: 60px">Portland trial-blazers</h1>
@@ -51,7 +51,7 @@
                         <a href="Manager.aspx">
                             <img src="Images/מנהל.png" width="130" height="100" />
                         </a>
-                        <a href="Simple Search.aspx">
+                        <a href="Dream Team.aspx">
                             <img src="Images/חיפוש פשוט.png" width="130" height="100" />
                         </a>
                         <a href="Complex Search.aspx">
