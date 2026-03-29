@@ -9,6 +9,10 @@ public partial class Home : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Request.QueryString["msg"] != null)
+        {
+            lblMsg.Text = Request.QueryString["msg"];
+            msgDiv.Style["display"] = "block"; 
+        }
     }
 }

@@ -6,6 +6,10 @@
     <h1  style =" font-weight: bold; font-size:55px; color: black; text-align:center; margin:0  " > 
         Portland-Trail Blazers</h1>
     </br>
+    <div id="msgDiv" runat="server" style="background-color: #d4edda; color: #155724; padding: 15px; border-radius: 5px; text-align: center; display: none;">
+    <asp:Label ID="lblMsg" runat="server" Text=""></asp:Label>
+</div>
+    <br />
  <font style="font-size:35px" >!Welcome to portland blazers</font>
     </br>
     <font style="font-size:35px">"Rip City"</font>
