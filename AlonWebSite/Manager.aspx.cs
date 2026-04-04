@@ -28,19 +28,19 @@ public partial class manager : System.Web.UI.Page
 
             if (dt.Rows.Count == 0)
             {
-                st = "אין נתונים";
+                st = "There is no data";
             }
             else
             {
                 st += "<table border= '1'>";
                 st += " <tr> ";
-                st += "<th> שם פרטי</th>";
-                st += "<th> שם משפחה</th>";
-                st += "<th> מייל</th>";
-                st += "<th> סיסמה</th>";
-                st += "<th> שחקן אהוב</th>";
-                st += "<th>גיל </th>";
-                st += "<th> התראות</th>";
+                st += "<th> First Name</th>";
+                st += "<th> Last Name</th>";
+                st += "<th> Email</th>";
+                st += "<th> Password</th>";
+                st += "<th> Favorite PLayer</th>";
+                st += "<th>Age </th>";
+                st += "<th> Notifications</th>";
                 st += "</tr>";
 
 

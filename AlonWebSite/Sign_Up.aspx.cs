@@ -39,7 +39,7 @@ public partial class Sign_Up : System.Web.UI.Page
 
             if (userExists)
             {
-                S = "האימייל כבר רשום במערכת";
+                S = "The Email is already registered in the system";
             }
             else
             {
@@ -58,7 +58,7 @@ public partial class Sign_Up : System.Web.UI.Page
 
             MyAdoHelper.DoQuery("MyDB.mdf", sqlInsert);
             
-            S = "נרשמת בהצלחה!";
+            S = "You have successfully registered!";
                 Response.Redirect("Home.aspx");
         }
              }

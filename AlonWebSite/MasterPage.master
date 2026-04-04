@@ -9,15 +9,17 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
-        img gallery {
-            width: 50px;
-            height: 45px;
+        .gallery-img {
+            width: 150px;
+            height: 120px;
+            border: 2px solid white;
+            margin: 5px;
         }
 
         .myTable {
             border: 3px solid black;
-            border-collapse: collapse;
-            background-color: beige;
+border-collapse: collapse;
+background-color: beige;
         }
 
         }
@@ -33,35 +35,35 @@
                 <td>
                     <center>
                         <a href="Sign_Up.aspx">
-                            <img src="Images/הרשמה.png" width="130" height="100" />
+                            <img src="Images/Sign Up.png" width="130" height="100" />
                         </a>
                         <a href="Enter.aspx">
-                            <img src="Images/כניסה.png" width="130" height="100" />
+                            <img src="Images/Sign In.png" width="130" height="100" />
 
                         </a>
                         <a href="Home.aspx">
-                            <img src="Images/דף הבית.png" width="130" height="100" />
+                            <img src="Images/Home.png" width="130" height="100" />
                         </a>
                         <a href="About.aspx">
-                            <img src="Images/אודות.png" width="130" height="100" />
+                            <img src="Images/About.png" width="130" height="100" />
                         </a>
                         <a href="Gallery.aspx">
-                            <img src="Images/גלריה.png" width="130" height="100" />
+                            <img src="Images/Gallery.png" width="130" height="100" />
                         </a>
                         <a href="Manager.aspx">
-                            <img src="Images/מנהל.png" width="130" height="100" />
+                            <img src="Images/Manager.png" width="130" height="100" />
                         </a>
                         <a href="Dream Team.aspx">
-                            <img src="Images/חיפוש פשוט.png" width="130" height="100" />
+                            <img src="Images/Dream Team.png" width="130" height="100" />
                         </a>
                         <a href="Complex Search.aspx">
                             <img src="Images/חיפוש מורכב.png" width="130" height="100" />
                         </a>
                         <a href="Update details.aspx">
-                            <img src="Images/עדכון פרטים.png" width="130" height="100" />
+                            <img src="Images/Updating Details.png" width="130" height="100" />
                         </a>
                         <a href="Exit.aspx">
-                            <img src="Images/יציאה.png" width="130" height="100" />
+                            <img src="Images/Exit.png" width="130" height="100" />
                         </a>
 
 

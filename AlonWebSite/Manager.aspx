@@ -4,15 +4,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <h1> טבלת משתמשים</h1>
+    <h1> Users Table</h1>
         <form runat="server" method="post">
-    <h2>  שם פרטי: <input type="text" name="FirstName" id="FirstName" placeholder="שם פרטי"> </h2>
+    <h2>  First Name: <input type="text" name="FirstName" id="FirstName" placeholder="First Name"> </h2>
 <hr />
 
-        <h2>  שם משפחה: <input type="text" name="LastName" id="LastName" placeholder="שם משפחה"> </h2>
+        <h2>  Last Name: <input type="text" name="LastName" id="LastName" placeholder="Last Name"> </h2>
 <hr />
 
-           <input id="Submit1" type="submit" value="שלח" />
+           <input id="Submit1" type="submit" value="Submit" />
     </form>
     <%=st  %>
 </asp:Content>

@@ -30,10 +30,10 @@ public partial class Enter : System.Web.UI.Page
                 bool userExists = MyAdoHelper.IsExist(sqlSelect);
 
                 if (!userExists)
-                    stResult = "אמייל או סיסמה שגויים";
+                    stResult = "Incorrect Email or Password";
                 else
                 {
-                    stResult = "משתמש רשום";
+                    stResult = "Registered user";
                     Response.Redirect("Home.aspx");
                 }
             }
