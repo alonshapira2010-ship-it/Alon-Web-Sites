@@ -33,6 +33,7 @@ background-color: beige;
             <tr height="100px">
 
                 <td>
+
                     <center>
                         <a href="Sign_Up.aspx">
                             <img src="Images/Sign Up.png" width="130" height="100" />
@@ -53,7 +54,7 @@ background-color: beige;
                         <a href="Manager.aspx">
                             <img src="Images/Manager.png" width="130" height="100" />
                         </a>
-                        <a href="Dream Team.aspx">
+                        <a href="Starting Five.aspx">
                             <img src="Images/Dream Team.png" width="130" height="100" />
                         </a>
                         <a href="Complex Search.aspx">
@@ -73,6 +74,9 @@ background-color: beige;
 
             <tr>
                 <td style="vertical-align: top">
+
+<img src="Images/Portland Trail Blazers.png" id="imgPTB" runat="server"
+     style="width:100px; height:100px; position: absolute; right:90px;" />
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </td>

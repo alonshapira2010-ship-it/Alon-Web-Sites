@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <div style=" display: flex; flex-direction: row; justify-content: center; gap: 20px; flex-wrap: wrap;">
 <div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
     <h1 style=" font-size:50px; color:darkred ">Point Guard</h1>
     
@@ -45,7 +45,8 @@
 </div>
 
     <div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
-    <h1 style=" font-size:50px; color:darkred ">Center</h1>
+    <h1 style=" font-size:50px; color:darkred ">Center </h1>
+        <br />
     
     <img id="imgCenter" runat="server"   alt="Player Image" style="width:200px; height:auto;" />
     
@@ -55,5 +56,10 @@
 </div>
 
         </div>
+<h1>Do you want to vote and influence what the starting five will be like?</h1>
+    <a href="Dream Team.aspx">
+    <img src="Images/Voting.png" width="870" height="230" />
+</a>
+
 </asp:Content>
 

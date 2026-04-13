@@ -38,7 +38,7 @@
 
 
 
-        <input id="Submit1" type="submit" value="Submit" 
+        <input id="Submit1" type="submit" value="Sign Up" 
         style="width: 400px; height: 60px; font-size: 40px; border-radius: 10px; background-color: forestgreen; color: white;"           
                 />
     </form>

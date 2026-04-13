@@ -10,7 +10,8 @@
         <h2>  Password: <input type="password" name="Password" id="Password" placeholder="Password"> </h2>
 <hr />
 
-           <input id="Submit1" type="submit" value="Submit" />
+           <input id="Submit1" type="submit" value="Sign In" style= " 
+               font-size:20px;width:100px; height:40px ;background-color:red;color:white ; border-radius: 10px;"/>
     </form>
     <div>
     <%= stResult %>
