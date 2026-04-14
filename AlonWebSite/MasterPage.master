@@ -27,6 +27,10 @@ background-color: beige;
 </head>
 <body dir="ltr" style="background-color: #C8102E">
     <!--https://www.w3schools.com/html/html_tables.asp-->
+      <div style=" font-size:80px; color:white">
+          Hello <%=Session["userName"] %>
+      </div>
+
     <center>
         <h1 style="color: white; font-size: 60px">Portland trial-blazers</h1>
         <table class="myTable" border="1" width="90%" height="1100px">
@@ -74,6 +78,8 @@ background-color: beige;
 
             <tr>
                 <td style="vertical-align: top">
+
+                    
 
 <img src="Images/Portland Trail Blazers.png" id="imgPTB" runat="server"
      style="width:100px; height:100px; position: absolute; right:90px;" />

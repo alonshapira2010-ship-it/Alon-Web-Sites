@@ -11,6 +11,7 @@ public partial class Enter : System.Web.UI.Page
     public string stResult="";
     protected void Page_Load(object sender, EventArgs e)
     {
+
         if (Page.IsPostBack)
         {
             string email = Request.Form["Gmail"];
@@ -18,6 +19,7 @@ public partial class Enter : System.Web.UI.Page
 
             if (email == "Manager@gmail.com" && password == "PTB2026")
             {
+                Session["userName"] = "Manager";
                 Response.Redirect("Manager.aspx");
             }
             else
@@ -30,11 +32,18 @@ public partial class Enter : System.Web.UI.Page
                 bool userExists = MyAdoHelper.IsExist(sqlSelect);
 
                 if (!userExists)
+                {
+                    Session["userName"] = "Guest";
+
                     stResult = "Incorrect Email or Password";
+                }
                 else
                 {
                     stResult = "Registered user";
+                    Session["userName"] = "User";
+
                     Response.Redirect("Home.aspx");
+
                 }
             }
         }

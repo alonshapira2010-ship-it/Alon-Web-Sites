@@ -20,5 +20,8 @@ public partial class MasterPage : System.Web.UI.MasterPage
         {
             imgPTB.Visible = true; // בכל דף אחר - תראה אותו
         }
+
+      
+
     }
 }
