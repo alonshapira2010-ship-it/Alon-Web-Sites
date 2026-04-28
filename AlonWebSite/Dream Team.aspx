@@ -6,7 +6,7 @@
         <form runat="server" method="post">
    
 
-                       <div style="font-size: 25px; font-weight: bold; color: #E03A3E; margin-top: 20px;">
+                       <div style="font-size: 25px; font-weight: bold; color: #E03A3E; margin-top: 20px; ">
     <%=strResult %>
 </div>
        <h1 style="color: black; font-size: 60px">Point Guard:</h1>
@@ -20,7 +20,7 @@
        </select>
        <hr />
 
-            <h1 style="color: black; font-size: 60px">Shooting Guard:</h1>
+            <h1 style="color: black; font-size: 60px"; >Shooting Guard:</h1>
     <select name="Shooting Guard" id="SG">
     <option value="" disabled selected hidden>Choose an option</option>
     <option value="Shaedon Sharpe">Shaedon Sharpe</option>

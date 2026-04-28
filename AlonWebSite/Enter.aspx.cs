@@ -2,6 +2,7 @@
 using System.Activities.Expressions;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -20,6 +21,7 @@ public partial class Enter : System.Web.UI.Page
             if (email == "Manager@gmail.com" && password == "PTB2026")
             {
                 Session["userName"] = "Manager";
+                Session["nihol"] = "ok";
                 Response.Redirect("Manager.aspx");
             }
             else
@@ -29,18 +31,18 @@ public partial class Enter : System.Web.UI.Page
                 "WHERE Email = '" + email + "' " +
                 "AND Password = N'" + password + "'";
 
-                bool userExists = MyAdoHelper.IsExist(sqlSelect);
+                System.Data.DataTable dt = MyAdoHelper.ExecuteDataTable(sqlSelect);
 
-                if (!userExists)
+                if (dt.Rows.Count==0)
                 {
-                    Session["userName"] = "Guest";
 
                     stResult = "Incorrect Email or Password";
+                    Session["userName"] = "Guest";
                 }
                 else
                 {
-                    stResult = "Registered user";
-                    Session["userName"] = "User";
+                    Session["user"] = "ok";
+                    Session["userName"] = dt.Rows[0]["First Name"];
 
                     Response.Redirect("Home.aspx");
 

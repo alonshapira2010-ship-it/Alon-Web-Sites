@@ -9,6 +9,10 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
+        .gold-frame {
+        border: 5px solid gold;
+        border-radius: 10px;
+    }
         .gallery-img {
             width: 150px;
             height: 120px;
@@ -29,7 +33,12 @@ background-color: beige;
     <!--https://www.w3schools.com/html/html_tables.asp-->
       <div style=" font-size:80px; color:white">
           Hello <%=Session["userName"] %>
-      </div>
+      </div>                     
+   <% if (Session["user"] == "ok" || Session["nihol"] == "ok")  {  %>
+    <a href="Exit.aspx">
+    <img src="Images/Exit.png" width="130" height="100" />
+</a>
+     <%} %>
 
     <center>
         <h1 style="color: white; font-size: 60px">Portland trial-blazers</h1>
@@ -39,13 +48,18 @@ background-color: beige;
                 <td>
 
                     <center>
+                        <% if (Session["user"] != "ok" && Session["nihol"] != "ok")  {  %>
                         <a href="Sign_Up.aspx">
                             <img src="Images/Sign Up.png" width="130" height="100" />
                         </a>
+                        <%} %>
+
+                       <% if (Session["user"] != "ok" && Session["nihol"] != "ok")  {  %>
                         <a href="Enter.aspx">
                             <img src="Images/Sign In.png" width="130" height="100" />
-
                         </a>
+                        <%} %>
+
                         <a href="Home.aspx">
                             <img src="Images/Home.png" width="130" height="100" />
                         </a>
@@ -55,21 +69,29 @@ background-color: beige;
                         <a href="Gallery.aspx">
                             <img src="Images/Gallery.png" width="130" height="100" />
                         </a>
+
+                        <% if (Session["nihol"] == "ok")  {  %>
                         <a href="Manager.aspx">
                             <img src="Images/Manager.png" width="130" height="100" />
                         </a>
+                         <%} %>
+
+                        <% if (Session["user"] == "ok" || Session["nihol"]=="ok")  {  %>
                         <a href="Starting Five.aspx">
                             <img src="Images/Dream Team.png" width="130" height="100" />
                         </a>
+                         <%} %>
+
+                        <% if ( Session["nihol"]=="ok")  {  %>
                         <a href="Complex Search.aspx">
                             <img src="Images/חיפוש מורכב.png" width="130" height="100" />
                         </a>
                         <a href="Update details.aspx">
                             <img src="Images/Updating Details.png" width="130" height="100" />
                         </a>
-                        <a href="Exit.aspx">
-                            <img src="Images/Exit.png" width="130" height="100" />
-                        </a>
+                                                 <%} %>
+
+                        
 
 
                     </center>

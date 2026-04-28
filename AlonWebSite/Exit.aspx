@@ -4,5 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h1> Exit</h1>
+    <%Session.Abandon();
+        Response.Redirect("Enter.aspx");
+        %>
 </asp:Content>
 
