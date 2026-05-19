@@ -1,20 +1,70 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Sign_Up.aspx.cs" Inherits="Sign_Up" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <script language="javascript">
+        function checkAll() {
+            fnErr.innerHTML = "";
+            lnErr.innerHTML = "";
+            EmailErr.innerHTML = "";
+            PassErr.innerHTML = "";
+
+            result = true;
+
+            if (checkFirstName() == false)
+                result = false;
+            if (checkLastName() == false)
+                result = false;
+            if (checkEmail() == false)
+                result = false;
+            if (checkPassword() == false)
+                result = false;
+
+            return result;
+
+        }
+
+        function checkFirstName() {
+            name = document.getElementById("firstname").value;
+
+            if (name.length < 2) {
+                fnErr.innerHTML = "First Name has to contain at least 2 characters";
+                return false;
+            }
+            if (name.length >10) {
+                fnErr.innerHTML = "First Name has to contain less than 10 chracters";
+                return false;
+            }
+
+            return true;
+        }
+        function checkLastName() {
+            return true;
+        }
+        function checkEmail() {
+            return true;
+        }
+        function checkPassword() {
+            return true;
+        }
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h1>Rgistration to the site:</h1>
 
-    <form runat="server" method="post">
+    <form runat="server" method="post" onsubmit="return checkAll();">
         <h2>  First Name: <input type="text" name="firstname" id="firstname" placeholder="First Name"> </h2>
+        <span id="fnErr"> </span>
         <hr />
          <h2>  Last Name: <input type="text" name="LastName" id="LastName" placeholder="LastName"> </h2>
+        <span id="lnErr"> </span>
         <hr />
 
         <h2>  Email: <input type="text" name="Gmail" id="Gmail" placeholder="Email"> </h2>
+        <span id="EmailErr"> </span>
         <hr />
 
                 <h2>  Password: <input type="password" name="Password" id="Password" placeholder="Password"> </h2>
+        <span id="PassErr"></span>
         <hr />
 
         <h2> Favorite players on the team:</h2>
@@ -23,6 +73,7 @@
        Shaedon Sharpe <input type="checkbox" value="Shaedon Sharpe"  name="FavoritePlayer" id="FavoritePlayer3" placeholder=""><br />
        Toumani Camara <input type="checkbox" value=" Toumani Camara" name="FavoritePlayer" id="FavoritePlayer4" placeholder=""><br />
         Other <input type="checkbox"  value=" Other" name="FavoritePlayer" id="FavoritePlayer5" placeholder=""><br />
+       
         <hr />
      <select name="AgeWeb" id="AgeWeb">
     <option value="0">Choose your age:</option>
@@ -30,10 +81,12 @@
     <option value="19-39">19-39</option>
     <option value="40+">40+</option>
            </select>
+        
            <hr />
         <h2> Would you like to get notifications to your Email about the site?</h2>
                 Yes <input type="radio" value="Yes" name="Yes/No" id="Yes/No1" placeholder=""><br />
                 No <input type="radio" value="No" name="Yes/No" id="Yes/No2" placeholder=""><br />
+
         <hr />
 
 
