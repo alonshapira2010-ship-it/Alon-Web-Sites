@@ -1,9 +1,35 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Dream Team.aspx.cs" Inherits="Simple_Search" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <script language="javascript">
+    function checkAll() {
+
+    EmailErr.innerHTML = "";
+
+    result = true;
+
+    if (checkEmail() == false)
+        result = false;
+
+    return result;
+}
+
+function checkEmail() {
+
+    let mail = document.getElementById("Email").value;
+
+    if (!mail.includes("@")) {
+        EmailErr.innerHTML = "מבנה מייל לא תקין";
+        return false;
+    }
+
+    return true;
+        }
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <form runat="server" method="post">
+        <form runat="server" method="post" onsubmit="return checkAll();">
    
 
                        <div style="font-size: 25px; font-weight: bold; color: #E03A3E; margin-top: 20px; ">
@@ -58,6 +84,7 @@
              <h1 style="color: black; font-size: 60px">
                  Email: <input type="text" name="Email" id="Email" placeholder="Email"
                  style="width: 400px; height: 30px; font-size: 15px; border-radius: 10px;" />
+                 <span id="EmailErr" />
              </h1>
 
 <hr />
