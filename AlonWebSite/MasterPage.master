@@ -31,8 +31,8 @@ background-color: beige;
 </head>
 <body dir="ltr" style="background-color: #C8102E">
     <!--https://www.w3schools.com/html/html_tables.asp-->
-      <div style=" font-size:80px; color:white">
-          Hello <%=Session["userName"] %>
+      <div style=" font-size:45px; color:white">
+                   Hello <%=Session["userName"] %>
       </div>                     
    <% if (Session["user"] == "ok" || Session["nihol"] == "ok")  {  %>
     <a href="Exit.aspx">
@@ -81,6 +81,11 @@ background-color: beige;
                             <img src="Images/Dream Team.png" width="130" height="100" />
                         </a>
                          <%} %>
+                         <% if (Session["user"] == "ok" || Session["nihol"]=="ok")  {  %>
+                       <a href="Videos.aspx">
+                           <img src="Images/Videos.png" width="130" height="100" />
+                         </a>
+                        <%} %>
 
                         <% if ( Session["nihol"]=="ok")  {  %>
                         <a href="Complex Search.aspx">

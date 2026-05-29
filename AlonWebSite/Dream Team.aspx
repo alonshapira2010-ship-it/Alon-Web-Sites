@@ -19,7 +19,7 @@ function checkEmail() {
     let mail = document.getElementById("Email").value;
 
     if (!mail.includes("@")) {
-        EmailErr.innerHTML = "מבנה מייל לא תקין";
+        EmailErr.innerHTML = "Incorrect email structure";
         return false;
     }
 
