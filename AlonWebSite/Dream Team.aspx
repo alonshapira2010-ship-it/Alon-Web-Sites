@@ -70,6 +70,7 @@ function checkEmail() {
 <select name="Power Forward" id="PF">
     <option value="" disabled selected hidden>Choose an option</option>
     <option value="Jerami Grant">	Jerami Grant</option>
+    <option value="Toumani Camara">	Toumani Camara</option>
 </select>
 <hr />
 

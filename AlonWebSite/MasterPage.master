@@ -95,7 +95,11 @@ background-color: beige;
                             <img src="Images/Updating Details.png" width="130" height="100" />
                         </a>
                                                  <%} %>
-
+                          <% if (Session["user"] == "ok" || Session["nihol"]=="ok")  {  %>
+                          <a href="Roster.aspx">
+                            <img src="Images/Roster.png" width="130" height="100" />
+                           </a>
+                             <%} %>
                         
 
 
