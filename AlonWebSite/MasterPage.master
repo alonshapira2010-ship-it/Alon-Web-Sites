@@ -36,7 +36,7 @@ background-color: beige;
       </div>                     
    <% if (Session["user"] == "ok" || Session["nihol"] == "ok")  {  %>
     <a href="Exit.aspx">
-    <img src="Images/Exit.png" width="130" height="100" />
+    <img src="Images/Exit.png" width="180" height="100" />
 </a>
      <%} %>
 

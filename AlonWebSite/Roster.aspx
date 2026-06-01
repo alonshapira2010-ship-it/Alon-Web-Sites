@@ -8,7 +8,7 @@
         Portland Trail Blazers - Player Profiles & Statistics
     </h2>
     <p style="font-size:20px; text-align: left; padding-left: 25px; color: #555;">
-        Current roster statistics and player information (Updated: May 2026).
+        Current roster statistics and player information season 2025/2026 (Updated: May 2026).
     </p>
     <br />
 
@@ -20,11 +20,11 @@
             <p style="font-size:18px; margin: 0; color: #E03A3E; font-weight: bold;">Position: Guard</p>
             <p style="font-size:16px; margin: 5px 0; color: #666;">Age: 35 | Height: 6'2" | Weight: 195 lbs</p>
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
-            <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
+            <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats (didn't play this season):</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>24.3</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>7.0</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>-</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>-</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>-</td></tr>
             </table>
         </div>
 
@@ -36,9 +36,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>17.5</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>3.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>6.4</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>14.2</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.7</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>3.7</td></tr>
             </table>
         </div>
 
@@ -50,9 +50,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>12.8</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.2</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>4.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>16.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.6</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>6.1</td></tr>
             </table>
         </div>
 
@@ -64,9 +64,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>9.4</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.5</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>3.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>1.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>1.2</td></tr>
             </table>
         </div>
 
@@ -78,9 +78,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>6.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.4</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>8.5</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>1.5</td></tr>
             </table>
         </div>
 
@@ -92,9 +92,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>18.9</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.5</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.9</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>20.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.6</td></tr>
             </table>
         </div>
 
@@ -106,9 +106,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>5.4</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">SPG (חטיפות):</td><td>1.7</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>5.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.0</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">SPG:</td><td>2.0</td></tr>
             </table>
         </div>
 
@@ -120,7 +120,7 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>4.2</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>3.5</td></tr>
                 <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>1.8</td></tr>
                 <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>1.0</td></tr>
             </table>
@@ -134,9 +134,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>5.3</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>1.5</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.7</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>4.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>1.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.0</td></tr>
             </table>
         </div>
 
@@ -148,9 +148,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>3.8</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>1.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>0.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>2.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>0.9</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>0.7</td></tr>
             </table>
         </div>
 
@@ -162,9 +162,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>14.8</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>7.2</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>3.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>24.2</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>6.9</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>6.7</td></tr>
             </table>
         </div>
 
@@ -176,8 +176,8 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>4.0</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>2.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>2.4</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>1.5</td></tr>
                 <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>0.5</td></tr>
             </table>
         </div>
@@ -190,9 +190,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>7.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>5.8</td></tr>
                 <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>3.6</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>1.3</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>1.4</td></tr>
             </table>
         </div>
 
@@ -204,27 +204,27 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>21.0</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>18.6</td></tr>
                 <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>3.5</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.8</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">APG:</td><td>2.1</td></tr>
             </table>
         </div>
 
-                <div style="background-color: #f9f9f9; border: 2px solid #000; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <img src="imgPlayers/Toumani Camara.png" alt="Toumani Camara" style="width: 100%; height: auto; border-radius: 5px; border-bottom: 2px solid #ccc;" />
-    <h3 style="font-size:26px; margin: 10px 0 5px 0; color: #000;">Toumani Camara #33</h3>
-    <p style="font-size:18px; margin: 0; color: #E03A3E; font-weight: bold;">Position: Forward</p>
-    <p style="font-size:16px; margin: 5px 0; color: #666;">Age: 26 | Height: 6'7" | Weight: 220 lbs</p>
-    <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
-    <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
-    <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-        <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>7.5</td></tr>
-        <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.5</td></tr>
-        <tr><td style="padding: 3px 0; font-weight: bold;">SPG:</td><td>0.9</td></tr>
-    </table>
-</div>
+        <div style="background-color: #f9f9f9; border: 2px solid #E03A3E; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1) ;">
+            <img src="imgPlayers/Toumani Camara.png" alt="Toumani Camara" style="width: 100%; height: auto; border-radius: 5px; border-bottom: 2px solid #ccc;" />
+            <h3 style="font-size:26px; margin: 10px 0 5px 0; color: #000;">Toumani Camara #33</h3>
+            <p style="font-size:18px; margin: 0; color: #E03A3E; font-weight: bold;">Position: Forward</p>
+            <p style="font-size:16px; margin: 5px 0; color: #666;">Age: 26 | Height: 6'7" | Weight: 220 lbs</p>
+            <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
+            <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
+            <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>13.4</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>5.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">SPG:</td><td>1.1</td></tr>
+            </table>
+        </div>
 
-        <div style="background-color: #f9f9f9; border: 2px solid #E03A3E; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="background-color: #f9f9f9; border: 2px solid #000; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <img src="imgPlayers/Robert Williams III.png" alt="Robert Williams III" style="width: 100%; height: auto; border-radius: 5px; border-bottom: 2px solid #ccc;" />
             <h3 style="font-size:26px; margin: 10px 0 5px 0; color: #000;">Robert Williams III #35</h3>
             <p style="font-size:18px; margin: 0; color: #E03A3E; font-weight: bold;">Position: Center</p>
@@ -232,13 +232,13 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>6.8</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>6.3</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">BPG (חסימות):</td><td>1.2</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>6.7</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>7.0</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">BPG:</td><td>1.5</td></tr>
             </table>
         </div>
 
-        <div style="background-color: #f9f9f9; border: 2px solid #000; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="background-color: #f9f9f9; border: 2px solid #E03A3E; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <img src="imgPlayers/Donovan Clingan.png" alt="Donovan Clingan" style="width: 100%; height: auto; border-radius: 5px; border-bottom: 2px solid #ccc;" />
             <h3 style="font-size:26px; margin: 10px 0 5px 0; color: #000;">Donovan Clingan #21</h3>
             <p style="font-size:18px; margin: 0; color: #E03A3E; font-weight: bold;">Position: Center</p>
@@ -246,13 +246,13 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>8.5</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>6.8</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">BPG (חסימות):</td><td>1.9</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>12.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>11.6</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">BPG:</td><td>1.7</td></tr>
             </table>
         </div>
 
-        <div style="background-color: #f9f9f9; border: 2px solid #E03A3E; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="background-color: #f9f9f9; border: 2px solid #000; border-radius: 10px; width: 30%; min-width: 280px; padding: 15px; box-sizing: border-box; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <img src="imgPlayers/Hansen Yang.png" alt="Hansen Yang" style="width: 100%; height: auto; border-radius: 5px; border-bottom: 2px solid #ccc;" />
             <h3 style="font-size:26px; margin: 10px 0 5px 0; color: #000;">Hansen Yang #15</h3>
             <p style="font-size:18px; margin: 0; color: #E03A3E; font-weight: bold;">Position: Center</p>
@@ -260,9 +260,9 @@
             <hr style="border: 0; border-top: 1px solid #ccc; margin: 10px 0;" />
             <h4 style="font-size:18px; margin: 0 0 5px 0;">Season Stats:</h4>
             <table style="width: 100%; font-size: 16px; text-align: left; border-collapse: collapse;">
-                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>5.0</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>4.1</td></tr>
-                <tr><td style="padding: 3px 0; font-weight: bold;">BPG (חסימות):</td><td>1.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">PPG:</td><td>4.2</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">RPG:</td><td>3.1</td></tr>
+                <tr><td style="padding: 3px 0; font-weight: bold;">BPG:</td><td>0.9</td></tr>
             </table>
         </div>
 
