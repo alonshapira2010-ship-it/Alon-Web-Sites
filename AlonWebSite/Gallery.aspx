@@ -11,11 +11,11 @@
     
     <img src="imgWeb/team.png" alt="Player 3" style="width: 30%; height: auto; border-radius: 5px;" />    
        
-    <img src="imgWeb/imgWeb.png" alt="Player 4" style="width: 45%; height: auto; border-radius: 5px;" />    
+    <img src="imgWeb/imgWeb.png" alt="Player 4" style="width: 40%; height: auto; border-radius: 5px;" />    
 
-    <img src="imgWeb/sharpeDunk.png" alt="Player 5" style="width: 55%; height: auto; border-radius: 5px;" />    
+    <img src="imgWeb/sharpeDunk.png" alt="Player 5" style="width: 45%; height: auto; border-radius: 5px;" />    
 
-    <img src="imgWeb/Championship.png" alt="Player 6" style="width: 50%; height: auto; border-radius: 5px;" />
+    <img src="imgWeb/Championship.png" alt="Player 6" style="width: 40%; height: auto; border-radius: 5px;" />
 </div>
 </asp:Content>
 

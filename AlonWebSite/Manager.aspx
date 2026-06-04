@@ -14,6 +14,6 @@
 
            <input id="Submit1" type="submit" value="Submit" />
     </form>
-    <%=st  %>
+    <%=st%>
 </asp:Content>
 

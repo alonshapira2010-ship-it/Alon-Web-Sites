@@ -17,7 +17,11 @@
                choose. I chose my favorite NBA team Portland Trail-Blazers and I'm building some interesting 
                things about them in my website.
 </p>
-
+    <br />
+    
+<div style="text-align: center;">
+    <img style="width:234px; height:300px;" src="imgWeb/Alon.png"/>
+</div>
 
 
    

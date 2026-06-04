@@ -3,8 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h2 style="font-size:30px; text-align: left; padding-left: 25px; display:bold">Classic Moments</h2> 
-    
+
+<br /> <br /> <br /> <br />    
     <div style="display: flex; flex-wrap: wrap; gap: 20px; padding-left: 25px; padding-right: 50px; justify-content: flex-start;">
         
         <div style="width: 48%; min-width: 300px; max-width: 560px;">
@@ -46,8 +46,11 @@
         <iframe src="https://www.youtube.com/embed/OOMvR4V4CnM" title="Blazers Video 7" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 </div>
+       
 
 
     </div>
+         <br />
+
 </asp:Content>
 

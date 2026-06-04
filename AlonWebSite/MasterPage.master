@@ -26,7 +26,7 @@ border-collapse: collapse;
 background-color: beige;
         }
 
-        }
+        
     </style>
 </head>
 <body dir="ltr" style="background-color: #C8102E">
@@ -70,12 +70,6 @@ background-color: beige;
                             <img src="Images/Gallery.png" width="130" height="100" />
                         </a>
 
-                        <% if (Session["nihol"] == "ok")  {  %>
-                        <a href="Manager.aspx">
-                            <img src="Images/Manager.png" width="130" height="100" />
-                        </a>
-                         <%} %>
-
                         <% if (Session["user"] == "ok" || Session["nihol"]=="ok")  {  %>
                         <a href="Starting Five.aspx">
                             <img src="Images/Starting Five.png" width="130" height="100" />
@@ -93,6 +87,16 @@ background-color: beige;
                             <img src="Images/Roster.png" width="130" height="100" />
                            </a>
                              <%} %>
+                        <% if (Session["nihol"] == "ok")  {  %>
+                            <a href="Manager.aspx">
+                             <img src="Images/Manager.png" width="130" height="100" />
+                             </a>
+                             <%} %>
+                        <% if (Session["nihol"] == "ok")  {  %>
+                        <a href="Manager Votes.aspx">
+                        <img src="Images/Manager Votes.png" width="130" height="100" />
+                          </a>
+                        <%} %>
                         
 
 

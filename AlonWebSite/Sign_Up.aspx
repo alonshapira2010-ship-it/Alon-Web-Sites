@@ -161,7 +161,9 @@
         style="width: 400px; height: 60px; font-size: 40px; border-radius: 10px; background-color: forestgreen; color: white;"           
                 />
     </form>
-    
+    <div style="font-size: 25px; color:red">
+    <%=S %>
+        </div>
 
 </asp:Content>
 

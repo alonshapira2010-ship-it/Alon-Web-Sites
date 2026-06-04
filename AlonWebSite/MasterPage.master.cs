@@ -14,11 +14,11 @@ public partial class MasterPage : System.Web.UI.MasterPage
         // אם שם הדף מכיל את המילה Home
         if (currentPage.Contains("Home.aspx"))
         {
-            imgPTB.Visible = false; // תעלים את הלוגו
+            imgPTB.Visible = false;
         }
         else
         {
-            imgPTB.Visible = true; // בכל דף אחר - תראה אותו
+            imgPTB.Visible = true; 
         }
 
       
