@@ -120,40 +120,40 @@
     <form runat="server" method="post" onsubmit="return checkAll();">
         <h2>  First Name: <input type="text" name="Firstname" id="Firstname" placeholder="First Name"> </h2>
         <span style="color:red" id="fnErr"> </span>
-        <hr />
+        
          <h2>  Last Name: <input type="text" name="LastName" id="LastName" placeholder="LastName"> </h2>
         <span style="color:red" id="lnErr"> </span>
-        <hr />
+        
 
         <h2>  Email: <input type="text" name="Gmail" id="Gmail" placeholder="Email"> </h2>
         <span style="color:red" id="EmailErr"> </span>
-        <hr />
+        
 
                 <h2>  Password: <input type="password" name="Password" id="Password" placeholder="Password"> </h2>
         <span style="color:red" id="PassErr"></span>
-        <hr />
+      
 
         <h2> Favorite players on the team:</h2>
        Deni Avdija <input type="checkbox" value="Deni Avdija" name="FavoritePlayer" id="FavoritePlayer1" placeholder=""> <br />
        Jrue Holiday <input type="checkbox" value="Jrue Holiday" name="FavoritePlayer" id="FavoritePlayer2" placeholder=""><br />
        Shaedon Sharpe <input type="checkbox" value="Shaedon Sharpe"  name="FavoritePlayer" id="FavoritePlayer3" placeholder=""><br />
        Toumani Camara <input type="checkbox" value=" Toumani Camara" name="FavoritePlayer" id="FavoritePlayer4" placeholder=""><br />
-        Other <input type="checkbox"  value=" Other" name="FavoritePlayer" id="FavoritePlayer5" placeholder=""><br />
-       
-        <hr />
-     <select name="AgeWeb" id="AgeWeb">
+        Other Players <textarea name="FavoritePlayer" id="OtherPlayersText" rows="3" cols="30" placeholder="Type other players here..."></textarea>
+       <br /> 
+
+     <select style="border-radius:30px; height:20px; width: 175px" name="AgeWeb" id="AgeWeb">
     <option value="0">Choose your age:</option>
     <option value="18-0">18-0</option>
     <option value="19-39">19-39</option>
     <option value="40+">40+</option>
            </select>
         
-           <hr />
+         
         <h2> Would you like to get notifications to your Email about the site?</h2>
                 Yes <input type="radio" value="Yes" name="Yes/No" id="Yes/No1" placeholder=""><br />
                 No <input type="radio" value="No" name="Yes/No" id="Yes/No2" placeholder=""><br />
-
-        <hr />
+        <br />
+       
 
 
 
@@ -161,16 +161,7 @@
         style="width: 400px; height: 60px; font-size: 40px; border-radius: 10px; background-color: forestgreen; color: white;"           
                 />
     </form>
-    <div>
-<%= name %> <br />
-<%= LastName %><br />
-<%= Gmail %><br />
-<%= Password %> <br />
-    <%= FavoritePlayer %> <br />
-<%= AgeWeb %> <br />
-    <%= yesOrNo %>
-          <%= S %>
-    </div>
+    
 
 </asp:Content>
 

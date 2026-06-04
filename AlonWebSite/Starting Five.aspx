@@ -4,51 +4,55 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div style=" display: flex; flex-direction: row; justify-content: center; gap: 20px; flex-wrap: wrap;">
-<div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
+<div style="text-align:center; border:3px solid #000; padding:20px; width:300px;">
     <h1 style=" font-size:50px; color:darkred ">Point Guard</h1>
     
-    <img id="imgPG" runat="server"   alt="Player Image" style="width:200px; height:auto;" />
+     <br /><br /><br />
+    <img id="imgPG" runat="server"   alt="Player Image" class="gold-frame" style="width:200px; height:auto;" />
     
+   
     <br /><br />
-    
     <h1>Player:</h1> <asp:Label ID="lblPGName" runat="server" Text="loading..."></asp:Label>
 </div>
+        
   
-    <div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
+    <div style="text-align:center; border:3px solid #000; padding:20px; width:300px;">
     <h1 style=" font-size:50px; color:darkred ">Shooting Guard</h1>
     
-    <img id="imgSG" runat="server"   alt="Player Image" style="width:200px; height:auto;" />
+    <img id="imgSG" runat="server"   alt="Player Image" class="gold-frame" style="width:200px; height:auto;" />
     
     <br /><br />
     
     <h1>Player:</h1> <asp:Label ID="lblSGName" runat="server" Text="loading..."></asp:Label>
 </div>
 
-    <div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
+    <div style="text-align:center; border:3px solid #000; padding:20px; width:300px;">
     <h1 style=" font-size:50px; color:darkred ">Small Forward</h1>
     
-    <img id="imgSF" runat="server"   alt="Player Image" style="width:200px; height:auto;" />
+    <img id="imgSF" runat="server"  class="gold-frame" alt="Player Image" style="width:200px; height:auto;" />
     
     <br /><br />
     
     <h1>Player:</h1> <asp:Label ID="lblSFName" runat="server" Text="loading..."></asp:Label>
 </div>
 
-    <div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
+    <div style="text-align:center; border:3px solid #000; padding:20px; width:300px;">
     <h1 style=" font-size:50px; color:darkred ">Power Forward</h1>
     
-    <img id="imgPF" runat="server"   alt="Player Image" style="width:200px; height:auto;" />
+    <img id="imgPF" runat="server"  class="gold-frame" alt="Player Image" style="width:200px; height:auto;" />
     
     <br /><br />
     
     <h1>Player:</h1> <asp:Label ID="lblPFName" runat="server" Text="loading..."></asp:Label>
 </div>
 
-    <div style="text-align:center; border:1px solid #ccc; padding:20px; width:300px;">
+    <div style="text-align:center; border:3px solid #000; padding:20px; width:300px;">
     <h1 style=" font-size:50px; color:darkred ">Center </h1>
         <br />
     
-    <img id="imgCenter" runat="server"   alt="Player Image" style="width:200px; height:auto;" />
+             <br /><br />
+
+    <img id="imgCenter" runat="server" class="gold-frame"  alt="Player Image" style="width:200px; height:auto;" />
     
     <br /><br />
     
@@ -58,7 +62,7 @@
         </div>
 <h1>Do you want to vote and influence what the starting five will be like?</h1>
     <a href="Dream Team.aspx">
-    <img src="Images/Voting.png" width="870" height="230" />
+    <img src="Images/Voting.png"  width="870" height="230" />
 </a>
 
 </asp:Content>

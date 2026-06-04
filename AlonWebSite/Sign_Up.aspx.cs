@@ -24,7 +24,7 @@ public partial class Sign_Up : System.Web.UI.Page
         if (IsPostBack)
         {
 
-            name = Request.Form["firstname"];
+            name = Request.Form["Firstname"];
             LastName = Request.Form["LastName"];
             Gmail = Request.Form["Gmail"];
             Password = Request.Form["Password"];
